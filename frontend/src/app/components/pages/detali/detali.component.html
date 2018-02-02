@@ -1,0 +1,46 @@
+<div class="scroll-bar">
+
+<br>
+<h3>
+  ~~Detali despre film :
+</h3>
+<br><br><br>
+
+
+
+
+  <p-dataTable class="space-pt-tabel" [value]="tabel2" selectionMode="single" [(selection)]="selectedTabel2"  [contextMenu]="cm"> >
+    <p-column field="descriere" header="Descriere"  [sortable]="true"></p-column>
+    <p-column field="anAparitie" header="An Aparitie" [sortable]="true"></p-column>
+    <p-column field="gen" header="Gen" [sortable]="true"></p-column>
+    <p-column field="actori" header="Actori" [sortable]="true"></p-column>
+    <p-column field="nota" header="Nota" [sortable]="true"></p-column>
+  </p-dataTable>
+  <p-contextMenu #cm [model]="items"></p-contextMenu>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<img src="../../../../assets/semantic/themes/default/assets/images/1.jpg" alt="Wrong Turn" style="width:150px;height:120px; margin-left:40px " class="thick-green-border">
+<img src="../../../../assets/semantic/themes/default/assets/images/2.jpg" alt="Hills have eyes" style="width:150px;height:120px;margin-left: 70px" class="thick-green-border">
+<img src="../../../../assets/semantic/themes/default/assets/images/3.jpg" alt="The butterfly effect" style="width:150px;height:120px;margin-left: 100px" class="thick-green-border">
+<img src="../../../../assets/semantic/themes/default/assets/images/4.jpg" alt="Forest Gump" style="width:150px;height:120px;margin-left: 130px" class="thick-green-border">
+<img src="../../../../assets/semantic/themes/default/assets/images/5.jpg" alt="Million dollar baby" style="width:150px;height:120px;margin-left: 160px" class="thick-green-border">
+
+
+
+</div>

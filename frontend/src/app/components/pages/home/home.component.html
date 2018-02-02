@@ -1,0 +1,75 @@
+<!--<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+<script language="javascript" type="text/javascript">
+  $("button").addClass("animation bounce");
+</script>-->
+
+
+
+
+<div class = "container-fluid">
+
+<div>
+  <br><br><br>
+  <pre>
+           <h1 class="container colorRed">
+                   Welcome user !
+          </h1 >
+    </pre>
+</div>
+
+
+<!--
+    <p-dataTable [value]="users"  selectionMode="single" [(selection)]="selectedUser" [contextMenu]="cm">
+      <p-column field="firstName" header="FirstName"  [sortable]="true"></p-column>
+      <p-column field="lastName" header="LastName" [sortable]="true"></p-column>
+      <p-column field="email" header="email" [sortable]="true"></p-column>
+    </p-dataTable>
+
+<p-contextMenu #cm [model]="items"></p-contextMenu>
+-->
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+
+<br>
+
+
+
+
+<div class="silver-background">
+  <div class ="row">
+  <font size="4">
+    <i><b><pre>                                              Username : </pre> </b></i>
+  </font>
+  <form>
+    <input type="text" placeholder="user" name="username" style="margin-left: 70px;" ><br>
+  </form>
+  </div>
+
+  <div class="row">
+  <font size="4">
+    <i><b><pre>                                              Password : </pre> </b></i>
+  </font>
+  <form>
+    <input type="text" name="password" placeholder="pass"style="margin-left: 70px;"  ><br>
+  </form>
+  </div>
+
+  <form style="margin-left:470px;" type="submit">
+    <button style="height:40px;width:110px;" class="btn-primary" type="text" > Register </button>
+    <button style="height:40px;width:110px;" class="btn-danger" type="submit" (click)="logIn(lUsername.value,lPassword.value)">Log In</button>
+  </form>
+</div>
+
+
+</div>
+<br><br><br>
+
+
+
+
+
+
